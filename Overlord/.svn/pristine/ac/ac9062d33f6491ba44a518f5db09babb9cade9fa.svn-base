@@ -1,0 +1,11 @@
+1.打开OverLord\Tools\C2L\csv
+2.复制任意一个excel改成自己想要的导表名
+3.修改导表内容
+4.双击OverLord\Tools\C2L\Run.bat
+5.上传OverLord\Tools\C2L的修改内容，包括excel和lua
+6.将OverLord\Tools\C2L\lua下的修改内容复制到OverLord\Assets\LuaFramework\Lua\Data\LuaTable
+7.提交OverLord\Assets\LuaFramework\Lua\Data\LuaTable里的内容
+8.在define.lua里的TableName添加自己的导表名
+9.此时即可使用TableReader["导表名"]的方式获得导表内容
+
+注：若出现乱码，可以把csv文件转为utf-8再转到lua，平常可以用编辑器打开csv，以省去转utf-8过程

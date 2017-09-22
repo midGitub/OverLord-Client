@@ -1,0 +1,5 @@
+Unity 		5.6.3f1
+LuaFramework 	1.0.7
+FairyGUI±à¼­Æ÷	3.3.5
+FairyGUI SDK	1.8.6
+Pomelo		1.0
